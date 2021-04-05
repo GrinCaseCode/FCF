@@ -1,0 +1,41 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1360px) {
+.billbord__descr,
+.header__left {
+	left: 0;
+}
+.about .right-request {
+	right: -50px;
+}
+.right-request {
+	padding-left: 26px;
+}
+.title-bg {
+    font-size: 155px;
+    }
+    .right-request {
+    	right: -50px;
+    }
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.container {
+    max-width: 1200px;
+}
+}
+@media (min-width: 1600px) {
+	.container {
+    max-width: 1200px;
+}
+}
+@media (min-width: 1640px) {
+.about__image {
+    margin-right: -155px;
+}
+}
+@media (min-width: 1800px) {
+.about__image {
+    margin-right: -93px;
+}
+}
