@@ -30,13 +30,15 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		} else {
 			$(".menu").slideUp(200);
 		}
-		
-	});
 
-	$(".menu a").click(function() {
+		$(".menu a").click(function() {
 			$(".menu").slideUp(200);
 			$(".sandwich").removeClass("active");
 		});
+		
+	});
+
+	
 
 
 $(".item-question__head").click(function(e) {

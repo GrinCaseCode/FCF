@@ -12,10 +12,375 @@
 }
 .title-bg {
     font-size: 155px;
-    }
+    } 
     .right-request {
     	right: -50px;
     }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.header__left {
+	padding-right: 70px;
+}
+.calculator-right__line strong {
+    font-size: 20px;
+    }
+    .about .right-request { 
+    	top: -63px;
+    }
+    .services {
+    padding-top: 140px;
+}
+.slider-services-nav__item {
+	font-size: 19px;
+}
+.title-bg {
+    font-size: 125px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.billbord__descr {
+	display: none;
+}
+.menu {
+	display: none;
+}
+.billbord .title-section {
+	max-width: 100%;
+	margin-left: 0;
+}
+.image-cent {
+	display: none;
+}
+.billbord__bg {
+	margin-right: -625px;
+}
+.billbord .container {
+	padding-bottom: 40px;
+	min-height: auto;
+}
+.title-section {
+    font-size: 45px;
+    line-height: 54px;
+    }
+    .calculator .title-section {
+    padding-bottom: 34px;
+}
+.tab-container::before {
+	width: 100%;
+}
+.line-range {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.calculator-right {
+	margin-left: 0;
+	margin-top: 30px;
+}
+.calculator-right::before {
+	width: 100%;
+}
+.calculator-right__line {
+	padding-right: 50px;
+}
+.about {
+    padding-top: 55px;
+    }
+.about__image img {
+	max-width: 800px;
+}
+.about .right-request {
+    top: -212px;
+}
+.slider-services-nav__item {
+    font-size: 16px;
+    padding: 0 10px;
+    height: 70px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.slick-current .slider-services-nav__item::before {
+	bottom: -20px;
+}
+.slider-services-for__image::before {
+	display: none;
+}
+.slider-services-for__image {
+	margin-left: 0;
+	height: 450px;
+	margin-top: 20px;
+	width: 100%;
+}
+.slider-services-for__left {
+	padding-top: 30px;
+}
+.slider-services-for__wrap {
+    padding-bottom: 50px;
+}
+.help__right {
+	padding-left: 15px;
+	padding-top: 30px;
+}
+.help {
+	padding-bottom: 60px;
+}
+.calculator {
+    padding-top: 65px;
+}
+.right-request {
+	bottom: -50px;
+}
+.btn_nav {
+    top: 10px;
+    position: relative;
+    display: inline-block;
+}
+.menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+        box-shadow: 3px 8px 11px rgb(0 0 0 / 20%);
+        background-color: #E8ECF1;
+}
+.menu li {
+    margin: 0;
+}
+.menu li a {
+    padding: 10px 15px;
+    display: block;
+}
+.menu li a:hover, .menu li.active a {
+        color: #51C1B4;
+}
+.header {
+    position: fixed;
+    z-index: 1000;
+    transition: all 0.3s;
+}
+.header__left,
+.header__left::before,
+.logo {
+    transition: all 0.3s;
+}
+.header__top {
+    padding-bottom: 10px;
+}
+.header.fixed {
+      background-color: #E8ECF1;
+}
+.header.fixed .logo {
+    font-size: 11px;
+    letter-spacing: 0.315em;
+}
+.header.fixed .header__left {
+    padding-top: 10px;
+    }
+.header.fixed .header__left::before {
+    height: 62px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.title-section {
+    font-size: 38px;
+    line-height: 42px;
+}
+.tabs li {
+    margin-right: 16px;
+}
+.tabs li a {
+    letter-spacing: 0.2em;
+}
+.line-range {
+	padding: 30px 20px;
+}
+.calculator-right,
+.tab-container {
+	min-height: auto;
+}
+.calculator-right {
+	padding-bottom: 30px;
+}
+.about__image img {
+    max-width: 632px;
+}
+.calculator-right__line {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.about__image {
+    margin-top: 0;
+    margin-right: -154px;
+    }
+    .about .right-request {
+    top: -28px;
+}
+.services {
+    padding-top: 75px;
+}
+.title-bg { 
+    font-size: 62px;
+}
+.slider-services-for__image {
+	height: 360px;
+}
+.arrows-wrap {
+	bottom: 40px;
+}
+.footer__col {
+    padding-top: 28px;
+}
+.right-request {
+    bottom: -80px;
+}
+.text-page {
+	margin-top: 15px;
+}
+.slick-current .slider-services-nav__item::before {
+	width: 4px;
+}
+.billbord .title-section {
+	max-width: 452px;
+}
+.slider-services-for__left + div {
+    padding: 0;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.header__left {
+    padding-right: 15px;
+}
+.title-section {
+    font-size: 29px;
+    line-height: 36px;
+}
+.billbord__bg {
+    margin-right: -539px;
+}
+.billbord .right-request {
+display: none;
+}
+.calculator {
+    padding-top: 35px;
+}
+.irs--flat .irs-single {
+    width: 150px;
+}
+.calculator-right .btn-main {
+    margin-left: 25px;
+}
+.about__image img {
+    max-width: 630px;
+}
+.right-request {
+    padding-bottom: 133px;
+}
+.title-page {
+    font-size: 31px;
+    line-height: 39px;
+    }
+    .text-page {
+        padding-left: 0;
+    }
+    .services {
+    padding-top: 34px;
+}
+
+.help .title-section {
+    padding-bottom: 24px;
+}
+.questions-block {
+    margin-right: -15px;
+    padding-right: 15px;
+}
+.item-question__head {
+    padding: 15px 0;
+    }
+    .help::after {
+        display: none;
+    }
+    .title-small {
+    font-size: 18px;
+    line-height: 24px;
+}
+.help .title-small {
+    padding-top: 7px;
+    padding-bottom: 20px;
+}
+form .btn-main {
+    margin-top: 10px;
+}
+.help {
+    padding-bottom: 45px;
+}
+.logo-wrap {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    padding-right: 47px;
+}
+body {
+    font-size: 14px;
+}
+.footer {
+    padding-bottom: 40px;
+    line-height: 22px;
+    }
+    .copyright {
+        justify-content: center;
+        padding-top: 15px;
+    }
+    .about {
+    padding-top: 30px;
+}
+.calculator-right__line strong {
+    font-size: 18px;
+}
+.calculator-right {
+    padding-top: 15px;
+}
+.billbord .title-section {
+    max-width: 346px;
+}
+.about .right-request {
+    top: -53px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.menu {
+    display: flex !important;
+}
 }
 
  /* Large Devices, Wide Screens */
