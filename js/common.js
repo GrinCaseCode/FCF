@@ -76,7 +76,15 @@ $('.tabs li a').click(function(event) {
 		fade: true,
 		appendArrows: $('.arrows-wrap'),
 		 asNavFor: '.slider-services-nav',
-		slidesToScroll: 1
+		slidesToScroll: 1,
+		responsive: [
+		{
+			breakpoint: 480,
+			settings: {
+				adaptiveHeight: true
+			}
+		}
+		]
 	});
 
 	$('.slider-services-nav').slick({
