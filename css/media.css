@@ -53,6 +53,9 @@
     font-size: 123px;
     height: 300px;
 }
+.steps .title-page br {
+    display: none;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -265,6 +268,7 @@
 .menu__haschild > a::after {
     display: none;
 }
+
 }
 
 /* Small Devices, Tablets */
@@ -351,6 +355,60 @@
 }
 .billbord-lending .list-page {
     padding-right: 0;
+}
+.billbord-investors {
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+.billbord-investors .right-request {
+    display: none;
+}
+.about_philosophy .about__image {
+    margin-right: -65px;
+}
+.table-wrap table {
+    font-size: 14px;
+    line-height: 21px;
+}
+.table-wrap table td {
+    padding: 15px 5px;
+    width: auto !important;
+}
+.ways-invest {
+    padding-top: 35px;
+}
+.item-step {
+    max-width: 100%;
+}
+.item-step {
+    margin-top: 40px;
+}
+.item-step__number {
+    font-size: 120px;
+    line-height: 70px;
+    top: 87px;
+    left: -70px;
+    width: 227px;
+    }
+ .about_investors   .about__image img {
+    max-width: 581px;
+}
+.about_investors .about__image {
+    margin-right: -116px;
+}
+.about_investors .right-request {
+    top: -83px;
+}
+.about_investors {
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+.fund .item-step {
+    margin-top: 25px;
+    }
+    .fund {
+    padding-top: 60px;
+    padding-bottom: 55px;
 }
 }
 
@@ -482,6 +540,10 @@ body {
 .choise {
     margin-top: 50px;
 }
+.about_philosophy .about__image {
+    margin-right: -197px;
+}
+
 }
 
 /* Custom, iPhone Retina */
@@ -534,6 +596,9 @@ body {
 	.container {
     max-width: 1200px;
 }
+.about_investors .about__image {
+    margin-right: 30px;
+}
 }
 @media (min-width: 1640px) {
 .about__image {
@@ -543,5 +608,8 @@ body {
 @media (min-width: 1800px) {
 .about__image {
     margin-right: -93px;
+}
+.about_investors .about__image {
+    margin-right: 81px;
 }
 }
